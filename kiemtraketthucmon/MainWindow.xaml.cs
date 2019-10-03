@@ -38,7 +38,6 @@ namespace kiemtraketthucmon
             meo meo = new meo();
             meo.tiengkeu = "Meo meo";
             meo.DongvatMauLong = "Đen";
-            meo.Talk();
-        }
+            meo.Talk();        }
     }
 }
