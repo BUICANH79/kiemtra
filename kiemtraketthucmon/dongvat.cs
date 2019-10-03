@@ -27,7 +27,7 @@ namespace kiemtraketthucmon
 
         private string MauLong;
 
-        public string DongvatMauLong
+        public string maulong
         {
             get
             {
@@ -43,10 +43,10 @@ namespace kiemtraketthucmon
 
         public virtual void Talk()
         {
-            if (tiengkeu.Equals("Gâu gâu") && (DongvatMauLong.Equals("Trắng")))
-                MessageBox.Show(this.Dongvat + " Tôi là Chó lông màu: " + this.DongvatMauLong);
-            else if (tiengkeu.Equals("Meo meo") && (DongvatMauLong.Equals("Đen")))
-                MessageBox.Show(this.Dongvat + " Tôi là Mèo lông màu: " + this.DongvatMauLong);
+            if (tiengkeu.Equals("Gâu gâu") && (maulong.Equals("Đen")))
+                MessageBox.Show(this.Dongvat + " Tôi là Chó lông màu: " + this.maulong);
+            else if (tiengkeu.Equals("Meo meo") && (maulong.Equals("Vàng")))
+                MessageBox.Show(this.Dongvat + " Tôi là Mèo lông màu: " + this.maulong);
         }
     }
 }

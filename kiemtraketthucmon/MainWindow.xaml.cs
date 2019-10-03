@@ -25,21 +25,21 @@ namespace kiemtraketthucmon
             InitializeComponent();
         }
 
-        private void Btncho_Click(object sender, RoutedEventArgs e)
-        {
-            cho cho = new cho();
-            cho.tiengkeu = "Gâu gâu";
-            cho.DongvatMauLong = "Trắng";
-            cho.Talk();
-
-        }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             meo meo = new meo();
             meo.tiengkeu = "Meo meo";
-            meo.DongvatMauLong = "Đen";
+            meo.maulong = "Vàng";
             meo.Talk();
+        }
+
+        private void Btncho_Click_1(object sender, RoutedEventArgs e)
+        {
+            cho cho = new cho();
+            cho.tiengkeu = "Gâu gâu";
+            cho.maulong = "Đen";
+            cho.Talk();
         }
     }
 }
