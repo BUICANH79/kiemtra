@@ -31,6 +31,7 @@ namespace kiemtraketthucmon
             cho.tiengkeu = "Gâu gâu";
             cho.DongvatMauLong = "Trắng";
             cho.Talk();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -38,6 +39,7 @@ namespace kiemtraketthucmon
             meo meo = new meo();
             meo.tiengkeu = "Meo meo";
             meo.DongvatMauLong = "Đen";
-            meo.Talk();        }
+            meo.Talk();
+        }
     }
 }
